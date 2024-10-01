@@ -1,9 +1,5 @@
-number = input("Введите двузначное число: ")
-
-if len(number) != 2:
-    print("Это не двузначное число.")
+a=int(input())
+if a//10 == a%10:
+    print("Да")
 else:
-    if number[0] == number[1]:
-        print("Да")
-    else:
-       print("Нет")
+    print("Нет")
